@@ -127,7 +127,7 @@ public class MainProduk {
 
 ## Hasil Eksekusi
 
-
+"C:\Users\MyBook Hype AMD\Pictures\Screenshots\Screenshot (5).png"
 
 ## Analisis
 1.Cara Kerja Kode
