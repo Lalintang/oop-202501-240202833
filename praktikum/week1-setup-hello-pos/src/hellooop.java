@@ -13,7 +13,7 @@ class Mahasiswa{
 public class hellooop {
     public static void main(String[] args) {
          //membuat variable scanner input
-       Mahasiswa a = new Mahasiswa("Khansa Amanda Icha Sentana", 240202838);
+       Mahasiswa a = new Mahasiswa("Egalian Lalintang", 240202833);
         // Meminta Input Dari User
         // Mengambil Object dari scaner input
       

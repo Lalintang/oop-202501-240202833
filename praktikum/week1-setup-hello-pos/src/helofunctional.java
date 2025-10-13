@@ -8,7 +8,7 @@ public class helofunctional {
             (nama, nim) -> System.out.println("Hello World, I am " + nama + " -" + nim);
 
         // eksekusi fungsi
-        sapa.accept("Khansa Amanda Icha Sentana", "240202838");
+        sapa.accept("Egalian Lalintang", "240202833");
         System.out.println("Program Functional Selesai, Terimakasih");
 }
 }

@@ -44,7 +44,8 @@ System.out.println(p1.getNama());
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
+![Screenshot hasil](/praktikum/week2-class-object/screenshots/Screenshot%20(5).png)
+
 )
 ---
 
