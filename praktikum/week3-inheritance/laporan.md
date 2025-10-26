@@ -2,17 +2,18 @@
 Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : Egalian Lalintang
+- NIM   : 240202833
+- Kelas : 3IKRA
 
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
-
----
+- Mahasiswa mampu menjelaskan konsep inheritance (pewarisan class) dalam OOP.
+Mahasiswa mampu membuat superclass dan subclass untuk produk pertanian.
+Mahasiswa mampu mendemonstrasikan hierarki class melalui contoh kode.
+Mahasiswa mampu menggunakan super untuk memanggil konstruktor dan method parent class.
+Mahasiswa mampu membuat laporan praktikum yang menjelaskan perbedaan penggunaan inheritance dibanding class tunggal.
 
 ## Dasar Teori
 (Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
