@@ -33,7 +33,10 @@ Inheritance (pewarisan) adalah konsep dalam pemrograman berorientasi objek (OOP)
 5. Commit dan Push
 -Commit dengan pesan: week3-inheritance.
 
+---
+
 ## Kode Program 
+
 
 ### 1. Produk.java
 ```java
@@ -188,7 +191,6 @@ public class MainInheritance {
 ---
 
 ## Analisis
-```
 ( Pada praktikum minggu ini, saya menerapkan konsep inheritance di Java dengan menjadikan Produk sebagai superclass, serta Benih, Pupuk, dan AlatPertanian sebagai subclass yang mewarisi atribut dan method dari Produk.
 Awalnya saya mengalami kendala karena struktur package tidak sesuai dengan deklarasi package com.upb.agripos.model;, sehingga file tidak dikenali saat dijalankan.
 Solusi: menyesuaikan struktur folder menjadi src/main/java/com/upb/agripos/... sesuai dengan penulisan package pada setiap file. Setelah itu, program berhasil dikompilasi dan dijalankan tanpa error.
@@ -210,8 +212,6 @@ Dibandingkan minggu sebelumnya, pendekatan ini lebih efisien dan terstruktur kar
 ---
 
 ## Quiz
-
-```
 1. Apa keuntungan menggunakan inheritance dibanding membuat class terpisah tanpa hubungan? Jawaban: inheritance membuat kode lebih efisien, mudah dirawat, terstruktur, dan fleksibel. 
 
 2. Bagaimana cara subclass memanggil konstruktor superclass?
