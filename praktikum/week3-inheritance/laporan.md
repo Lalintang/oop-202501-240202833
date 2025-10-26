@@ -180,7 +180,7 @@ public class MainInheritance {
         CreditBy.print("240202833", "Egalian Lalintang");
     }
 }
-
+```
 
 
 ## Hasil Eksekusi
