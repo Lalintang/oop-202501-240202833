@@ -191,7 +191,7 @@ public class MainInheritance {
 ---
 
 ## Analisis
-( Pada praktikum minggu ini, saya menerapkan konsep inheritance di Java dengan menjadikan Produk sebagai superclass, serta Benih, Pupuk, dan AlatPertanian sebagai subclass yang mewarisi atribut dan method dari Produk.
+Pada praktikum minggu ini, saya menerapkan konsep inheritance di Java dengan menjadikan Produk sebagai superclass, serta Benih, Pupuk, dan AlatPertanian sebagai subclass yang mewarisi atribut dan method dari Produk.
 Awalnya saya mengalami kendala karena struktur package tidak sesuai dengan deklarasi package com.upb.agripos.model;, sehingga file tidak dikenali saat dijalankan.
 Solusi: menyesuaikan struktur folder menjadi src/main/java/com/upb/agripos/... sesuai dengan penulisan package pada setiap file. Setelah itu, program berhasil dikompilasi dan dijalankan tanpa error.
 Class Produk berisi atribut umum (kode, nama, harga, stok) dan method tampilInfo() untuk menampilkan data produk.
@@ -202,12 +202,12 @@ AlatPertanian → atribut tambahan material
 Masing-masing subclass memiliki method deskripsi() yang menampilkan detail produk, serta memanggil method tampilInfo() dari superclass menggunakan pewarisan.
 Pada MainInheritance, saya membuat objek dari setiap subclass dan menambahkan System.out.println() agar hasil antar produk tidak menempel saat ditampilkan di konsol.
 Class CreditBy ditempatkan di package util untuk menampilkan identitas mahasiswa.
-Dibandingkan minggu sebelumnya, pendekatan ini lebih efisien dan terstruktur karena dengan inheritance, atribut dan method umum cukup ditulis sekali di superclass. Hal ini membuat kode lebih rapi, mudah dibaca, dan mudah dikembangkan. )
+Dibandingkan minggu sebelumnya, pendekatan ini lebih efisien dan terstruktur karena dengan inheritance, atribut dan method umum cukup ditulis sekali di superclass. Hal ini membuat kode lebih rapi, mudah dibaca, dan mudah dikembangkan. 
 
 ---
 
 ## Kesimpulan
-(Dengan menerapkan konsep inheritance, class Produk dapat digunakan kembali oleh berbagai subclass tanpa harus menulis ulang kode yang sama, sehingga lebih efisien. Subclass seperti Benih, Pupuk, dan AlatPertanian dapat menambahkan atribut khusus sesuai kebutuhannya masing-masing — misalnya varietas untuk benih, jenis untuk pupuk, serta material dan keterangan untuk alat pertanian. Pendekatan ini menjadikan program lebih terorganisir, mudah dikembangkan, dan fleksibel untuk penambahan fitur atau kategori produk baru di masa depan.)
+Dengan menerapkan konsep inheritance, class Produk dapat digunakan kembali oleh berbagai subclass tanpa harus menulis ulang kode yang sama, sehingga lebih efisien. Subclass seperti Benih, Pupuk, dan AlatPertanian dapat menambahkan atribut khusus sesuai kebutuhannya masing-masing — misalnya varietas untuk benih, jenis untuk pupuk, serta material dan keterangan untuk alat pertanian. Pendekatan ini menjadikan program lebih terorganisir, mudah dikembangkan, dan fleksibel untuk penambahan fitur atau kategori produk baru di masa depan.
 
 ---
 
@@ -215,7 +215,7 @@ Dibandingkan minggu sebelumnya, pendekatan ini lebih efisien dan terstruktur kar
 1. Apa keuntungan menggunakan inheritance dibanding membuat class terpisah tanpa hubungan? Jawaban: inheritance membuat kode lebih efisien, mudah dirawat, terstruktur, dan fleksibel. 
 
 2. Bagaimana cara subclass memanggil konstruktor superclass?
-  Jawaban: Subclass memanggil konstruktor superclass dengan super(). 
+  Jawaban: Subclass memanggil konstruktor superclass dengan super. 
 
 3.  Berikan contoh kasus di POS pertanian selain Benih, Pupuk, dan Alat Pertanian yang bisa dijadikan subclass.
  Jawaban: Pestisida, Bibit Hewan, Obat Hewan, dan Hasil Panen.
