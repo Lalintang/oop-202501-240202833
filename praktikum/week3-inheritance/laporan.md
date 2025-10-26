@@ -185,8 +185,6 @@ public class MainInheritance {
 
 ## Hasil Eksekusi
 <img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/e335ee2e-e92b-46cc-ba3e-0c006c39cd21" />
-
-
 ---
 
 ## Analisis
