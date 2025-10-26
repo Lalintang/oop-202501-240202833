@@ -201,11 +201,16 @@ Masing-masing subclass memiliki method deskripsi() yang menampilkan detail produ
 Pada MainInheritance, saya membuat objek dari setiap subclass dan menambahkan System.out.println() agar hasil antar produk tidak menempel saat ditampilkan di konsol.
 Class CreditBy ditempatkan di package util untuk menampilkan identitas mahasiswa.
 Dibandingkan minggu sebelumnya, pendekatan ini lebih efisien dan terstruktur karena dengan inheritance, atribut dan method umum cukup ditulis sekali di superclass. Hal ini membuat kode lebih rapi, mudah dibaca, dan mudah dikembangkan. )
+
 ---
+
 ## Kesimpulan
 (Dengan menerapkan konsep inheritance, class Produk dapat digunakan kembali oleh berbagai subclass tanpa harus menulis ulang kode yang sama, sehingga lebih efisien. Subclass seperti Benih, Pupuk, dan AlatPertanian dapat menambahkan atribut khusus sesuai kebutuhannya masing-masing — misalnya varietas untuk benih, jenis untuk pupuk, serta material dan keterangan untuk alat pertanian. Pendekatan ini menjadikan program lebih terorganisir, mudah dikembangkan, dan fleksibel untuk penambahan fitur atau kategori produk baru di masa depan.)
+
 ---
+
 ## Quiz
+
 ```
 1. Apa keuntungan menggunakan inheritance dibanding membuat class terpisah tanpa hubungan? Jawaban: inheritance membuat kode lebih efisien, mudah dirawat, terstruktur, dan fleksibel. 
 
@@ -214,4 +219,4 @@ Dibandingkan minggu sebelumnya, pendekatan ini lebih efisien dan terstruktur kar
 
 3.  Berikan contoh kasus di POS pertanian selain Benih, Pupuk, dan Alat Pertanian yang bisa dijadikan subclass.
  Jawaban: Pestisida, Bibit Hewan, Obat Hewan, dan Hasil Panen.
-```
+
