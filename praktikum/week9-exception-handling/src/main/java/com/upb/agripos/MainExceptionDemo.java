@@ -3,7 +3,7 @@ package main.java.com.upb.agripos;
 public class MainExceptionDemo {
     public static void main(String[] args) {
         // Ganti dengan Nama dan NIM Anda sesuai format di gambar
-        System.out.println("Hello, I am [Defita Dwi Wulandary]-[240202856] (Week9)");
+        System.out.println("Hello, I am [Egalian Lalintang]-[240202833] (Week9)");
 
         ShoppingCart cart = new ShoppingCart();
         Product p1 = new Product("P01", "Pupuk Organik", 25000, 3);
